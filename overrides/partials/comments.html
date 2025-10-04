@@ -1,0 +1,69 @@
+<!-- 根据页面元数据决定是否显示评论区：默认显示，除非明确设置 comments: false -->
+{% if page.meta.comments is undefined or page.meta.comments %}
+    <h2 id="__comments">{{ lang.t("meta.comments") }}</h2>
+    <script src="https://giscus.app/client.js"
+        data-repo="Guyitaoo/ZJUT-Python-AI-website"
+        data-repo-id="R_kgDOP5mTxQ"
+        data-category="General"
+        data-category-id="DIC_kwDOP5mTxc4CwGXt"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="light"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+    </script>
+
+    <script>
+        // 同步 MkDocs 主题与 Giscus 主题
+        function applyTheme(theme) {
+            const giscusScript = document.querySelector('script[src*="giscus.app"]');
+            // 确保脚本存在且已加载
+            if (!window.giscus) {
+                // 如果Giscus尚未加载，设置属性并监听其加载
+                giscusScript.setAttribute('data-theme', theme);
+            } else {
+                // 如果Giscus已加载，直接更新配置
+                const iframe = document.querySelector('.giscus-frame');
+                if (iframe) {
+                    iframe.contentWindow.postMessage(
+                        { giscus: { setConfig: { theme: theme } } },
+                        'https://giscus.app'
+                    );
+                }
+            }
+        }
+
+        // 初始主题设置
+        document.addEventListener('DOMContentLoaded', function() {
+            const palette = __md_get("__palette");
+            let initialTheme = 'light'; // 默认主题
+            if (palette && typeof palette.color === "object") {
+                initialTheme = (palette.color.scheme === "slate") ? "transparent_dark" : "light";
+            }
+            applyTheme(initialTheme);
+
+            // 监听主题切换
+            const paletteToggle = document.querySelector("[data-md-component=palette]");
+            if (paletteToggle) {
+                paletteToggle.addEventListener('change', function() {
+                    const updatedPalette = __md_get("__palette");
+                    if (updatedPalette && typeof updatedPalette.color === "object") {
+                        const newTheme = (updatedPalette.color.scheme === "slate") ? "transparent_dark" : "light";
+                        applyTheme(newTheme);
+                    }
+                });
+            }
+        });
+
+        // 监听来自Giscus的准备就绪消息 (可选，用于更精确的控制)
+        window.addEventListener('message', function (event) {
+            if (event.origin !== 'https://giscus.app') return;
+            if (!(typeof event.data === 'object' && event.data.giscus)) return;
+            // 如果需要，可以在这里处理Giscus发送的消息，例如确认主题设置成功
+        });
+    </script>
+{% endif %}

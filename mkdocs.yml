@@ -1,0 +1,76 @@
+site_name: Python与人工智能 课程资源平台
+site_url: https://mydomain.org/mysite
+repo_name: Guyitaoo/ZJUT-Python-AI-website
+repo_url: https://github.com/Guyitaoo/notebook.git
+theme:
+  name: material
+  language: zh
+  logo: _assets/logo.png
+  favicon: _assets/favicon.png
+  repo_icon: true
+  repo_name: "完整的长仓库名称显示"
+  icon:
+    #repo: fontawesome/brands/git-alt
+  features:
+    - navigation.tabs
+    - content.code.copy
+  custom_dir: overrides
+plugins:
+  - search
+  # - glightbox
+markdown_extensions:
+  - admonition
+  - pymdownx.details  # 支持可折叠提示框
+  - pymdownx.superfences  # 代码块嵌套
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: "__span"
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+extra_css:
+  - _styles/extra.css
+  - _styles/components/gallery.css
+extra_javascript:
+  - _js/components/gallery.js
+
+nav:
+  - 首页: index.md
+  - 课程笔记:
+      - 数学: 
+        - 高等数学: math/calculus.md
+        - 线性代数: math/linear_algebra.md
+      - 英语: english.md
+      - Python与人工智能:
+        - 首页: ai/index.md
+        - Python基础: ai/neural_network.md
+      - "Anaconda环境配置": 
+        - Anaconda环境配置(命令行): start_guide/anaconda/anaconda_env.md
+        - Anaconda环境配置(图形界面): start_guide/anaconda/anaconda_env_gui.md
+      - Jupyter Notebook教程: start_guide/jupyter_notebook/jupyter_notebook.md
+      - 作业提交办法: start_guide/homework_submission.md
+  - 技术积累:
+      - 首页: textbook/index.md
+      - "Python程序设计基础教程":
+          - 扉页: textbook/python/index.md
+          - 第一章 概述: 
+            #- textbook/python/chapter1.md
+            - "1.4": textbook/python/chapter1/1.4.md
+          - 第二章 变量和简单数据类型: textbook/python/chapter2.md
+          - 第三章 程序流程控制: textbook/python/chapter3.md
+          - 第四章 列表与元组: textbook/python/chapter4.md
+          - 第五章 字典与集合: textbook/python/chapter5.md
+          - 第六章 函数: textbook/python/chapter6.md
+          - 第七章 文件: textbook/python/chapter7.md
+          - 第八章 面向对象程序设计: textbook/python/chapter8.md
+      - "人工智能教材":
+          - 扉页: textbook/ai/index.md
+  - 📚其他内容:
+      - 首页: courseware/index.md
+      - 课程PPT: courseware/ppt/index.md
+      - 课程代码: courseware/code/index.md
+  - 📌关于: 
+        - 关于: about/about.md
+        - 贡献者名单: about/contributors.md
+        - 平台建设团队: about/team.md

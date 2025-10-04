@@ -16,7 +16,7 @@ comments: false
     </div>
     <br> -->
 !!! section "本站介绍"
-    这里是谷逸韬的博客。
+    这里是谷逸韬的博客。网站正在建设中。
 
 !!! advice "推荐阅读"
     - [Anaconda环境配置](./tech/tools/anaconda/anaconda_env.md)

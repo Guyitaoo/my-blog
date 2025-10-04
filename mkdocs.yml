@@ -6,7 +6,7 @@ theme:
   name: material
   language: zh
   logo: _assets/logo.jpg
-  favicon: _assets/favicon.jpg
+  favicon: _assets/favicon.png
   repo_icon: true
   repo_name: "完整的长仓库名称显示"
   icon:
@@ -15,6 +15,7 @@ theme:
     - navigation.tabs
     - content.code.copy
   custom_dir: overrides
+copyright: Copyright &copy; 2024~2025 <a href="https://github.com/Guyitaoo">Guyitao</a>
 plugins:
   - search
   # - glightbox
@@ -32,6 +33,10 @@ markdown_extensions:
 extra_css:
   - _styles/extra.css
   - _styles/components/gallery.css
+  - https://static.zeoseven.com/zsft/292/main/result.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-lite-webfont@1.1.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-tc-webfont@1.0.0/style.css
+  - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 extra_javascript:
   - _js/components/gallery.js
 

@@ -9,10 +9,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap');
 
+.md-header__button.md-logo img {
+    border-radius: 50%;
+}
+
+
 /* ===== CSS变量定义 ===== */
 :root {
   /* 颜色变量 */
-  --md-primary-fg-color: #119acc;
+  --md-primary-fg-color: #599dd5;
   --md-primary-fg-color--light: #861f4194;
   --md-primary-fg-color--dark: #ac325a;
   --md-accent-fg-color: #119acc;

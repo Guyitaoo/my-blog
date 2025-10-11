@@ -1,5 +1,5 @@
 /* ===== 字体导入 ===== */
-@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap');
@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&family=Noto+Sans+HK:wght@100..900&display=swap'); */
 
 @import url('https://static.zeoseven.com/zsft/292/main/result.css');
 
@@ -32,16 +32,21 @@
   --input-font: 'LXGW WenKai', sans-serif;
   
   /* 字号变量 */
-  --base-font-size: small;
-  --heading-font-size: small;
+  --base-font-size: larger;
+  --heading-font-size: larger;
 }
 
 /* ===== 基础样式 ===== */
 body {
-    font-size: var(--base-font-size);
-    font-family: var(--main-font);
-    font-weight: 5000;
+    font-family: var(--main-font) !important;
+    font-size: 18px !important;  /* 直接设置，不使用变量 */
 }
+
+/* ===== 增强字体大小设置 ===== */
+.md-typeset {
+    font-size: 17px !important;  /* 设置基础字体大小 */
+}
+
 
 /* ===== 标题样式 ===== */
 .headerlink {

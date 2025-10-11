@@ -223,6 +223,7 @@ input {
 .md-typeset .admonition.section,
 .md-typeset details.section {
     border-color: #3AB4F2;
+    font-size: 16px;
 }
 
 .md-typeset .section>.admonition-title,
@@ -270,6 +271,7 @@ input {
 .md-typeset .admonition.advice,
 .md-typeset details.advice {
     border-color: #acc1a0;
+    font-size: 15px;
 }
 
 .md-typeset .advice>.admonition-title,

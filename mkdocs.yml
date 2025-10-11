@@ -7,6 +7,8 @@ theme:
   language: zh
   logo: _assets/logo.jpg
   favicon: _assets/favicon.png
+  font:
+    size: 26px
   repo_icon: true
   repo_name: "完整的长仓库名称显示"
   icon:
@@ -56,6 +58,9 @@ nav:
     - 工具:
         - Anaconda环境配置: tech/tools/anaconda/anaconda_env.md
         - Jupyter Notebook: tech/tools/jupyter_notebook/jupyter_notebook.md
+    - 自然语言处理:
+        - 首页: tech/nlp/index.md
+        - 分词: tech/nlp/tokenization.md
   - 其他内容:
       - 首页: else/index.md
   - 关于: 

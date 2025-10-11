@@ -27,13 +27,13 @@
   --md-primary-bg-color--light: hsla(0, 0%, 100%, 0.521);
   
   /* 字体变量 */
-  --main-font: "LXGW WenKai";
+  --main-font: "LXGW WenKai", sans-serif;
   --code-font: 'Source Code Pro', monospace;
-  --input-font: 'LXGW WenKai';
+  --input-font: 'LXGW WenKai', sans-serif;
   
   /* 字号变量 */
-  --base-font-size: larger;
-  --heading-font-size: larger;
+  --base-font-size: small;
+  --heading-font-size: small;
 }
 
 /* ===== 基础样式 ===== */

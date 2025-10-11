@@ -2,54 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/introduction/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/about/about/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/about/friends/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/calculus/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/linear_algebra/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/python/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/else/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/tech/nlp/tokenization/</loc>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/anaconda/anaconda_env/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/jupyter_notebook/jupyter_notebook/</loc>
-         <lastmod>2025-10-04</lastmod>
+         <lastmod>2025-10-11</lastmod>
     </url>
 </urlset>

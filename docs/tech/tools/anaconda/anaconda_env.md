@@ -1,7 +1,4 @@
-
 # Anaconda 环境配置
-
-!!! property "本文贡献者：顾武韬"
 
 ## 什么是Anaconda
 

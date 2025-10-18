@@ -57,10 +57,13 @@ nav:
     - 首页: tech/index.md
     - 工具:
         - Anaconda环境配置: tech/tools/anaconda/anaconda_env.md
+        - Visual Studio Code: tech/tools/vscode/vscode.md
         - Jupyter Notebook: tech/tools/jupyter_notebook/jupyter_notebook.md
     - 自然语言处理:
         - 首页: tech/nlp/index.md
         - 分词: tech/nlp/tokenization.md
+        - 停用词去除: tech/nlp/stop_word_removal.md
+        - 词性标注: tech/nlp/part-of-speech_tagging.md
   - 其他内容:
       - 首页: else/index.md
   - 关于: 

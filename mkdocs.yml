@@ -20,9 +20,12 @@ theme:
 copyright: Copyright &copy; 2024~2025 <a href="https://github.com/Guyitaoo">Guyitao</a>
 plugins:
   - search
-  # - glightbox
+  # - statistics:
+  #     #page_template: _config/word-count-only.md  # 使用自定义模板
+  #     page_read_time: false    # 关闭阅读时间
+  #     page_images: false       # 关闭图片统计
 markdown_extensions:
-  - admonition
+  - admonition 
   - pymdownx.details  # 支持可折叠提示框
   - pymdownx.superfences  # 代码块嵌套
   - pymdownx.highlight:
@@ -51,8 +54,9 @@ nav:
         - 线性代数: 
           - 首页: course/math/linear_algebra/index.md
       #- 英语: english.md
-      - Python:
+      - Python与人工智能:
         - 首页: course/python/index.md
+        - 笔记: course/python/notes.md
   - 技术积累:
     - 首页: tech/index.md
     - 工具:

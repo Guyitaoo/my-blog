@@ -25,6 +25,8 @@ plugins:
   #     page_read_time: false    # 关闭阅读时间
   #     page_images: false       # 关闭图片统计
 markdown_extensions:
+  - pymdownx.arithmatex:
+      generic: true
   - admonition 
   - pymdownx.details  # 支持可折叠提示框
   - pymdownx.superfences  # 代码块嵌套
@@ -35,6 +37,7 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.blocks.caption
+  
 extra_css:
   - _styles/extra.css
   - _styles/components/gallery.css
@@ -44,6 +47,8 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css
 extra_javascript:
   - _js/components/gallery.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 nav:
   - 首页: index.md

@@ -2,78 +2,86 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/introduction/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/_config/word-count-only/</loc>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/about/about/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/about/friends/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/calculus/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/math/linear_algebra/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/course/python/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/course/python/notes/</loc>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/else/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/nlp/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/nlp/part-of-speech_tagging/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/nlp/stop_word_removal/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/nlp/tokenization/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/anaconda/anaconda_env/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/jupyter_notebook/jupyter_notebook/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/typst/typst/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
     <url>
          <loc>https://mydomain.org/mysite/tech/tools/vscode/vscode/</loc>
-         <lastmod>2025-10-18</lastmod>
+         <lastmod>2025-10-20</lastmod>
     </url>
 </urlset>

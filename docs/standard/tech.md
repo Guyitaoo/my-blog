@@ -1,0 +1,6 @@
+---
+comments: false
+---
+# Standard-tech
+
+

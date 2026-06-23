@@ -327,3 +327,7 @@ lst = [5*i for i in range(5)]
 #lst = [0,5,10,15,20]
 lst = [random.randint()]
 ```
+
+#### 过滤筛选列表推导式
+
+新列表 = [ 表达式 for 循环变量 in 迭代器 if 条件表达式]
